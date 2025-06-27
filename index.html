@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Clone</title>
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- googlfont's icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- fontawesome's icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="body"> <!-- id bcz when scrollbar open then dont scroll -->
+    <!-- ================ desktop ==================== -->
+    <!-- desktop header -->
+    <header id="desktop-header">
+        <div class="logo_container br">
+            <a href="index.html">
+                <img class="myntra_home" src="images/myntra_logo.webp" alt="Myntra Home">
+            </a>
+        </div>
+        <nav class="nav_bar br">
+            <a href="collections/men-category.html">Men</a>
+            <a href="collections/women-category.html">Women</a>
+            <a href="collections/kids-category.html">Kids</a>
+            <a href="#">Home</a> 
+            <a href="#">Beauty<sup>New</sup></a><!--📗🔖 sup  --> 
+        </nav>
+        <div class="search_bar_container br">
+            <span class="material-symbols-outlined search_icon">search</span>
+            <input class="search_input" placeholder="Search for products, brands and more">
+        </div>
+        <div class="action_bar br">
+            <div class="account_profile_container">
+               <div class="action_container">
+                   <span class="material-symbols-outlined">person</span>
+                   <span class="action_name">Account</span>
+               </div>
+               <div class="pop_action_container">
+                  <a href="account/signup.html">
+                      <p>Sign Up</p>
+                  </a>
+                  <a href="account/login.html">
+                      <p>Login</p>
+                  </a>  
+               </div>
+            </div>
+            <div class="action_container" >
+                <span class="material-symbols-outlined action_icon">favorite</span>
+                <span class="action_name">Wishlist</span>
+            </div>
+            <a class="action_container shopingCart" href="checkout/cart.html" >
+                <span class="material-symbols-outlined action_icon">shopping_bag</span>
+                <span class="action_name">Bag</span>
+                <span class="bag-item-count">0</span>
+            </a>
+        </div>
+    </header>
+    <!-- desktop main -->
+    <main id="desktop-main">
+        <!-- hero slider section -->
+        <section class="hero-slider-super-container br">
+            <div class="hero-slider-container">
+                <span class="material-symbols-outlined " id="arrow-back">
+                    arrow_back_ios
+                </span>
+                <div class="hero-slider-img-conatiner">
+                    <a href="javascript:void()">
+                        <img src="images/home-images/home-desktop-images/home-hero-section-images/heroHeroine1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="hero-slider-img-conatiner">
+                    <a href="javascript:void()">
+                        <img src="images/home-images/home-desktop-images/home-hero-section-images/girlboy2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="hero-slider-img-conatiner">
+                    <a href="javascript:void()">
+                        <img src="images/home-images/home-desktop-images/home-hero-section-images/horseWithboys.jpg" alt="">
+                    </a>
+                </div>
+                <div class="hero-slider-img-conatiner">
+                    <a href="javascript:void()">
+                        <img src="images/home-images/home-desktop-images/home-hero-section-images/bags.jpg" alt="">
+                    </a>
+                </div>
+                <div class="hero-slider-img-conatiner">
+                    <a href="javascript:void()">
+                        <img src="images/home-images/home-desktop-images/home-hero-section-images/manruning.jpg" alt="">
+                    </a>
+                </div>
+                <span class="material-symbols-outlined " id="arrow-forward">
+                    arrow_forward_ios
+                </span>
+            </div>
+            <div class="hero-sliders-no-container">
+                <!-- DYNAMICALLY -->
+                <!-- <span class="material-symbols-outlined">
+                    radio_button_checked
+                </span>
+                <span class="material-symbols-outlined">
+                    radio_button_checked
+                </span>
+                <span class="material-symbols-outlined">
+                    radio_button_checked
+                </span> -->
+            </div>
+        </section>
+         <!--  shop by Rising Stars -->
+        <section class="rising-stars-slider-container">
+            <div>
+                <!-- <h2 id="heading-rising-stars-heading">Rising Stars</h2> -->
+                <h2 id="heading-rising-stars-heading">Shop By Discount</h2>
+            </div>
+            <div class="rising-stars-slider">
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/men-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/1.png" alt="">
+                    </a>
+                </div>
+                <!-- <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/men-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/2.png" alt="">
+                    </a>
+                </div> -->
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/women-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/3.png" alt="">
+                    </a>
+                </div>
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/men-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/4.png" alt="">
+                    </a>
+                </div>
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/women-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/5.png" alt="">
+                    </a>
+                </div>
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/men-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/6.png" alt="">
+                    </a>
+                </div>
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/women-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/7.png" alt="">
+                    </a>
+                </div>
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/men-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/8.png" alt="">
+                    </a>
+                </div>
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/men-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/9.png" alt="">
+                    </a>
+                </div>
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/men-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/10.png" alt="">
+                    </a>
+                </div>
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/men-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/11.png" alt="">
+                    </a>
+                </div>
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/men-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/12.png" alt="">
+                    </a>
+                </div>
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/men-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/13.png" alt="">
+                    </a>
+                </div>
+                <div class="rising-stars-slider-img-conatiner">
+                    <a href="collections/men-category.html">
+                        <img src="images/home-images/home-desktop-images/home-risingStars-section-images/14.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--  shop by Trend -->
+        <section class="trending-slider-container">
+            <div>
+                <h2 id="heading-trending-heading">Shop By Trend</h2>
+            </div>
+            <!-- background img and on it another container so its child automatic show on it. after css apply on background-img-container -->
+            <div class="background-img-container">
+                <div class="Products-card-container">
+                    <div>
+                        <a href="collections/men-category.html">
+                            <img src="images/home-images/home-desktop-images/home-trending-section-images/1.jpeg" alt="">
+                            <p class="card-bottom-title">Baggy Jeans</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/women-category.html">
+                            <img src="images/home-images/home-desktop-images/home-trending-section-images/2.jpeg" alt="">
+                            <p class="card-bottom-title">Summer Dress</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/women-category.html">
+                            <img src="images/home-images/home-desktop-images/home-trending-section-images/3.jpeg" alt="">
+                            <p class="card-bottom-title">Ear Rings</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-desktop-images/home-trending-section-images/4.jpeg" alt="">
+                            <p class="card-bottom-title">Flipflop</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- shop by budget -->
+        <section class="budget-category-container">
+            <div id="budget-Category-heading">
+                <h1> Shop By budget </h1>
+            </div>
+            <div id="budget-product-categories-wrapper">
+                <div class="budget-category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-budgetFriendly-section-images/1.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="budget-category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-budgetFriendly-section-images/2.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="budget-category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-budgetFriendly-section-images/3.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="budget-category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-budgetFriendly-section-images/4.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="budget-category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-budgetFriendly-section-images/5.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="budget-category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-budgetFriendly-section-images/6.jpg" alt="" srcset="">
+                    </a>
+                </div>
+                <div class="budget-category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-budgetFriendly-section-images/7.jpg" alt="" srcset="">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--  shop by category -->
+        <section class="typewise-products-category-container">
+            <div>
+                <h1 id="typewise-Category-heading"> Shop By Category</h1>
+            </div>
+            <!-- Women -->
+            <div id="Category-heading">
+                <h1 id="gradient-heading">Women</h1>
+            </div>
+            <div id="product-categories-wrapper">
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/ethnic.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/westrenwear.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/footwear.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/handbag.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/casualstyle.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/bigSize.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/innearwear.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/jewellery.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/lingeries.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/loungewear.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/makeup.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/officewear.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/sleepwear.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/sportwaer.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-women-section/workwear.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+            </div>
+            <!-- Men -->
+            <div id="Category-heading">
+                <h1 id="gradient-heading">Men</h1>
+            </div>
+            <div id="product-categories-wrapper">
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/ethnicwear.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/bigSize.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/casualWatches.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/digitalwatches.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/footwaer.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/flipFlop.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/gromming.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/headphone-speakers.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/sunglass.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/WFH-casula-wear.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/workwear.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/activewear.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-men-section/bag.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+            </div>
+            <!-- kids -->
+            <div id="Category-heading">
+                <h1 id="gradient-heading">Kids</h1>
+            </div>
+            <div id="product-categories-wrapper">
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-kids-section/kids-wear.jpg"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-kids-section/kid2.png"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="category-img-conatiner">
+                    <a href="collections/men-products.html">
+                        <img src="images/home-images/home-desktop-images/home-category-section-images/home-kids-section/summerfun.png"
+                            alt="" srcset="">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- desktop footer -->
+   <footer id="men-footer">
+       <section class="main-footer-container">
+        <div class="online-shoping">
+            <h2 class="footer-each-section-heading">Online Shoping</h2>
+             <p>
+                <a href="collections/men-category.html">Men</a>
+             </p>
+             <p>
+                <a href="collections/women-category.html">Women</a>
+             </p>
+             <p>
+                <a href="collections/kids-category.html">Kids</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Home</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Beauty</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Genz</a>
+             </p>
+        </div>
+        <div class="customer-policies">
+            <h2 class="footer-each-section-heading">Custom Policeis</h2>
+             <p>
+                <a href="javaScript:void(0)">Contact Us</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">FAQ</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">T&C</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Term Of Use</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Track Orders</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Shipping</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Returns</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Privacy Polices</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Grievance</a>
+             </p>
+        </div>
+        <div class="myntra-apps">
+            <h2 class="footer-each-section-heading">Experience myntra Mobile Apss</h2>
+            <div class="apps-logo-container">
+               <a href="javaScript:void(0)">
+                  <img class="apps-logo" src="images/home-images/home-page-footer-images/googlePlayStore.png" alt="">
+               </a>
+               <a href="javaScript:void(0)">
+                  <img class="apps-logo" src="images/home-images/home-page-footer-images/appleAppStore.png" alt="">
+               </a>
+            </div>
+            <div>
+                <p class="myntra-apps-inside-heading">KEEP IN TOUCH</p>
+                <div class="myntra-apps-logos">
+                    <a href="javaScript:void(0)">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    <a href="javaScript:void(0)">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                    <a href="javaScript:void(0)">
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </a>
+                    <a href="javaScript:void(0)">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>  
+        </div>
+        <div class="originalANDreturn">
+             <div class="originalANDreturnWrapper">
+                <img  src="images/home-images/home-page-footer-images/original-named-logo.png" alt="">
+                <span> 
+                    <span class="return-bold-text">100% ORIGINAL</span> guarantee for all products at myntra.com
+                </span>
+             </div>
+             <div class="originalANDreturnWrapper">
+                <img  src="images/home-images/home-page-footer-images/return-30days-logo.png" alt="">
+                <span> 
+                    <span class="return-bold-text">Return with in 30days</span> of receiving your orde
+                </span>
+             </div>
+        </div>
+        <div class="usefull-links">
+            <h2 class="footer-each-section-heading">Useful Links</h2>
+             <p>
+                <a href="javaScript:void(0)">Blogs</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Careers</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Site Map</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Whitehat</a>
+             </p>
+             <p>
+                <a href="javaScript:void(0)">Corporate Information</a>
+             </p>
+        </div>
+       </section>
+       <section class="popular-search-container">
+        <div  class="popularSeach-section-heading-container">
+            <h2 class="popularSeach-section-heading">Popular Search </h2>
+            <div class="popular-search-line"></div>
+        </div>
+        <div class="popular-search-wrapper">
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Sherwani</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Track Pants</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Blazers</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Sweaters For Men</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Men Wedding Dresses</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Kurta Pajama</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Raincoats</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Shorts</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Trousers</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Waistcoat</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Inner Wear</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Nightwear</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Jeans</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Shirts</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Jogger Jeans</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Men Suits</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">T Shirts</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Sweatshirts</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Jackets For Men</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Tracksuits</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Ripped Jeans</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Ethnic Wear</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Hoodies</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Raksha Bandhan Gifts</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Watches</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Shoes</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Belts</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Swimwear</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Dhotis</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Boxers</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Vests</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Thermals</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Socks</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Shrugs</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Bracelets</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Rings</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Sunglasses</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Headphones</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Wallets</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Helmets</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Caps</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Mufflers</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Gloves</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Ties</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Cufflinks</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Men Sandals</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Floaters</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Flip Flops</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Trunks</span><span>|</span></a>
+            <a href="collections/men-products.html"><span class="mostlySearchQuery">Bags</span><span>|</span></a>
+        </div>
+        <div class="popular-search-wrapper-below">
+            <p>In case of any concern, <span class="contact">Contact Us.</span> </p>
+            <p>2025 www.myntra.com. All rights reserved.</p>
+            <p>A Flipkart company.</p>
+        </div>
+         <hr>
+
+       </section>
+   </footer>
+
+   <!-- ================ Mobile ==================== -->
+    <!-- mobile header -->
+    <header id="mobile-header">
+        <!-- part 1 -->
+        <div class="mobile-logoandmyntraHomeimg-Container bb">
+            <div class=" mobile-arrow-left  hemBurger-icon">
+                <span class="material-symbols-outlined menu-burger-icon">
+                    density_medium
+                </span>
+            </div>
+            <div class="myntra_home_img_container bg">
+                    <img class="myntra_home_img" src="images/myntra_logo.webp" alt="Myntra Home">
+            </div>
+        </div>
+        <!-- part 2 -->
+        <div class="action_bar_container bb">
+             <div class="mobile-download-icon bg">
+                 <span class="material-symbols-outlined">
+                     download
+                 </span>
+             </div>
+
+            <div class="action_bar_icons_container mobile-icon-size-favorite bg" >
+                <span class="material-symbols-outlined  ">favorite</span>
+                <span class="action_name">Wishlist</span>
+            </div>
+
+            <a class="action_bar_icons_container  shopingCart mobile-icon-size-bag bg" href="checkout/cart.html" >
+                <span class="material-symbols-outlined  ">
+                    shopping_bag
+                </span>
+                <span class="action_name">Bag</span>
+                <span class="bag-item-count">0</span>
+            </a>
+        </div>
+    </header>
+    <!-- mobile main -->
+    <main id="mobile-main">
+        <!-- mobile search section  -->
+         <section class="mobile-search-container">
+                <div class="search_wrapper"> <!-- :focus-within seudo class 📗🔖.search_wrapper:focus-within{}  -->
+                   <span class="material-symbols-outlined mobile-search_icon">search</span>
+                   <input class="mobile-search-input" type="text" placeholder="Search for brand and Products">
+                </div> 
+         </section>
+         <!-- mobile men slider section -->
+         <section class="mobile-men-slider-section">
+                <div class="mobile-men-slider-container">
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/shirt.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/Tshirt.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/jeans.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/casualShoes.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/sportsShoes.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/groom.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/flip-flop.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/kurtas.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/perfume.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/watches.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/smartwatch.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/underwaer.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/trackPants.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-men-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-men-category-topMostSlider/headphones.jpg" alt="">
+                          </a>
+                     </div>
+                </div>
+         </section>
+         <!-- mobile women slider section -->
+         <section class="mobile-women-slider-section">
+                <div class="mobile-women-slider-container">
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/under999RsGIF.gif" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/kurta.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/tops.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/kuratset.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/jeans.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/bag.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/jeweller.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/coDress.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/sarees.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/lagage.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/lingries.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/watches.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/makeup.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-women-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-home-women-category-topMostSlider/rising.jpg" alt="">
+                          </a>
+                     </div>
+                </div>
+         </section>
+         <!-- mobile GENDER CATEGORIES section -->
+         <section class="gender-category-section">
+               <!-- 1st part -->
+                <div class="gender-category-section-heading-container">
+                    <div class="gender-category-section-heading">
+                       <h2>Categories</h2>
+                    </div>
+                </div>
+                <!-- 2nd part -->
+                <div class="mobile-gender-container">
+                    <div class="each-gender-container">
+                        <div class="mobile-Under-budget-slider-img-conatiner gender-category-img-conatiner">
+                            <a href="collections/men-category.html">
+                                <img src="images/home-images/home-mobile-images/mobile-sideBar-section/manColorImg.jpeg" alt="">
+                            </a>       
+                        </div>
+                        <p>Men</p><!-- 📗🔖📗🔖 grid all are not same width bcz text is too much and overflow and break grid all equal width power. -->
+                    </div>
+                    <div class="each-gender-container">
+                        <div class="mobile-Under-budget-slider-img-conatiner gender-category-img-conatiner">
+                            <a href="collections/women-category.html">
+                            <img src="images/home-images/home-mobile-images/mobile-sideBar-section/womanColorimg.jpeg " alt="">
+                          </a>               
+                        </div>
+                        <p>Women</p>
+                    </div>
+                    <div class="each-gender-container">
+                        <div class="mobile-Under-budget-slider-img-conatiner gender-category-img-conatiner">
+                            <a href="collections/kids-category.html">
+                            <img src="images/home-images/home-mobile-images/mobile-sideBar-section/childColorImg.jpeg" alt="">
+                          </a>           
+                        </div>
+                        <p>Kids</p>
+                    </div>
+                    <div class="each-gender-container">
+                        <div class="mobile-Under-budget-slider-img-conatiner gender-category-img-conatiner">
+                            <a href="javaScript:v">
+                            <img src="images/home-images/home-mobile-images/mobile-sideBar-section/homeANDfurbishingColorImg.jpeg" alt="">
+                          </a>                   
+                        </div>
+                        <p>House</p>
+                    </div>
+                </div>
+         </section>
+         <!-- mobile section Hero Slider -->
+         <section class="mobile-hero-slider-container">
+           <div class="mobile-hero-slider">
+                <div class="mobile-hero-slider-img-conatiner">
+                    <img src="images/home-images/home-mobile-images/mobile-home-hero-category-section/1.gif" alt="">
+                 </div>
+                 <div class="mobile-hero-slider-img-conatiner">
+                    <img src="images/home-images/home-mobile-images/mobile-home-hero-category-section/2.jpg" alt="">
+                 </div>
+                 <div class="mobile-hero-slider-img-conatiner">
+                    <img src="images/home-images/home-mobile-images/mobile-home-hero-category-section/3.png" alt="">
+                 </div>
+            </div>
+            <div class="mobile-hero-sliders-no-container">
+               <!-- DYNAMICALLY -->
+               <!-- <i class="fa-solid fa-circle-dot"></i>
+               <i class="fa-solid fa-circle-dot"></i>
+               <i class="fa-solid fa-circle-dot"></i> -->
+           </div>
+         </section>
+         <!-- mobile GIF-flipFlop-slim-banner-section  -->
+         <section class="mobile-GIF-flipFlop-slim-banner-section">
+           <div class="mobile-GIF-flipFlop-slim-banner-container">
+                <img src="images/home-images/home-mobile-images/mobile-home-GIF-flipFlop-category-section/home-mobile-banner.webp" alt="">
+            </div>
+         </section>
+         <!-- mobile GIF-flipFlop-box-banner-section  -->
+         <section class="mobile-GIF-flipFlop-box-banner-section">
+           <div class="mobile-GIF-flipFlop-box-banner-container">
+                 <div class="GIF-flipFlop-box-img-container">
+                    <a href="javaScript:void(0)">
+                        <img src="images/home-images/home-mobile-images/mobile-home-GIF-flipFlopBOX-category-section/super.gif" alt="">
+                    </a>
+                 </div>
+                 <div class="GIF-flipFlop-box-img-container">
+                    <a href="javaScript:void(0)">
+                        <img src="images/home-images/home-mobile-images/mobile-home-GIF-flipFlopBOX-category-section/levis.png" alt="">
+                    </a>
+                 </div>
+                 <div class="GIF-flipFlop-box-img-container">
+                    <a href="javaScript:void(0)">
+                        <img src="images/home-images/home-mobile-images/mobile-home-GIF-flipFlopBOX-category-section/vip.webp" alt="">
+                    </a>
+                 </div>
+                 <div class="GIF-flipFlop-box-img-container">
+                    <a href="javaScript:void(0)">
+                        <img src="images/home-images/home-mobile-images/mobile-home-GIF-flipFlopBOX-category-section/live.webp" alt="">
+                    </a>
+                 </div>
+            </div>
+         </section>
+         <!-- mobile Infocus-Today-section   -->
+         <section class="mobile-Infocus-Today-section">
+           <div class="mobile-Infocus-Today-container">
+              <div class="mobile-Infocus-Today-heading-wrapper">
+                  <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/Infocus-TodayImg.jpg" alt="">
+              </div>
+              <div class="mobile-Infocus-Today-slider">
+                 <div class="mobile-Infocus-Today-slide-ONE">
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/1.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/2.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/3.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/4.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/5.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/13.png" alt="">
+                        </a>
+                    </div><div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/14.png" alt="">
+                        </a>
+                    </div>
+                      
+                 </div> 
+                 <div class="mobile-Infocus-Today-slide-SECOND">
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/6.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/7.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/8.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/9.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/10.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/11.png" alt="">
+                        </a>
+                    </div><div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Infocus-Today-section/12.png" alt="">
+                        </a>
+                    </div>
+                      
+                 </div>  
+              </div> 
+            </div>
+         </section>
+         <!-- mobile infinite-msg-slider-section  -->
+         <section class="mobile-infinite-msg-slider-section">
+                 <div class="infinite-msg-slider-container">
+                     <div class="slide">
+                       <p>
+                          Till 5th-Nov Deal is extended 
+                          <span id="slide-green-txt">Order Fast</span>
+                       </p>
+                       <span class="material-symbols-outlined star-icon">
+                          star
+                       </span>
+                     </div> 
+                     <!--  dublicate -->
+                     <div class="slide">
+                       <p>
+                          Till 5th-Nov Deal is extended 
+                          <span id="slide-green-txt">Order Fast</span>
+                       </p>
+                       <span class="material-symbols-outlined star-icon">
+                          star
+                       </span>
+                     </div> 
+                 </div>
+         </section>
+         <!-- mobile Under-budget-slider section -->
+         <section class="mobile-Under-budget-slider-section">
+                <div class="mobile-Under-budget-slider-container">
+                     <div class="mobile-Under-budget-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Under-budget-slider-section/499all.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-Under-budget-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Under-budget-slider-section/999all.jpg " alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-Under-budget-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Under-budget-slider-section/80.jpg" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-Under-budget-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Under-budget-slider-section/499.png" alt="">
+                          </a>
+                     </div>
+                     <div class="mobile-Under-budget-slider-img-conatiner">
+                          <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-Under-budget-slider-section/99all.jpg" alt="">
+                          </a>
+                     </div>
+                    
+                    
+                </div>
+         </section>
+         <!-- mobile budget-Friendly-section  -->
+         <section class="mobile-budget-Friendly-section">
+           <div class="mobile-budget-Friendly-container">
+              <div class="mobile-budget-Friendly-heading-wrapper">
+                     <h2>Pocket Friendly Shop</h2>
+                     <p>Where style matched savings </p>
+              </div>
+              <div class="mobile-budget-Friendly-slider">
+                 <div class="mobile-budget-Friendly-slide-ONE">
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/1.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/2.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/3.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/4.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/5.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/13.png" alt="">
+                        </a>
+                    </div><div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/14.png" alt="">
+                        </a>
+                    </div>
+                      
+                 </div> 
+                 <div class="mobile-budget-Friendly-slide-SECOND">
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/6.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/7.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/8.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/9.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/10.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/11.png" alt="">
+                        </a>
+                    </div><div>
+                        <a href="collections/men-products.html">
+                            <img src="images/home-images/home-mobile-images/mobile-budget-Friendly-section/12.png" alt="">
+                        </a>
+                    </div>
+                      
+                 </div>  
+              </div> 
+            </div>
+         </section>
+
+         <!-- bottom fixed nav bar -->
+         <div class="Bottom-Navigation-Bar-container">
+            <div class="Bottom-Navigation-Bar-wrapper">
+                <div class="icon-container-bottom-nav-bar navbar-home">
+                    <a href="index.html" class="icon-container-bottomNav">
+                        <span class="material-symbols-outlined ">
+                            home
+                        </span>
+                        <p>Home</p>
+                    </a>
+                </div>
+                <div class="icon-container-bottom-nav-bar under999">
+                    <a href="collections/men-products.html" class="icon-container-bottomNav">
+                        <span class="material-symbols-outlined ">
+                            sell
+                        </span>
+                        <p>Under ₹999</p>
+                    </a>
+                </div>
+                <div class="icon-container-bottom-nav-bar Beauty">
+                    <a href="collections/men-products.html" class="icon-container-bottomNav">
+                        <span class="material-symbols-outlined ">
+                            self_care
+                        </span>
+                        <p>Beauty</p>
+                    </a>
+                </div>
+                <div class="icon-container-bottom-nav-bar Account">
+                    <a href="account/login.html" class="icon-container-bottomNav">
+                        <span class="material-symbols-outlined ">
+                            person
+                        </span>
+                        <p>Account</p>
+                    </a>
+                </div>
+            </div>
+         </div> 
+    </main>
+    <!-- mobile side bar -->
+    <div class="sidebar-super-container">
+        <div class="sidebar-container">
+            <div class="sidebar-wrapper">
+                 <!-- 1st part  -->
+                <div class="sideBar-category-conatiner">
+                      <div class="sideBar-category-img-container">
+                           <a href="collections/men-category.html">
+                             <img src="images/home-images/home-mobile-images/mobile-sideBar-section/man.png" alt="">
+                           </a>
+                      </div>
+                      <div class="sideBar-category-img-container">
+                           <a href="collections/women-category.html">
+                             <img src="images/home-images/home-mobile-images/mobile-sideBar-section/woman.png" alt="">
+                           </a>
+                      </div>
+                      <div class="sideBar-category-img-container">
+                           <a href="collections/kids-category.html">
+                             <img src="images/home-images/home-mobile-images/mobile-sideBar-section/child.png" alt="">
+                           </a>
+                      </div>
+                      <div class="sideBar-category-img-container">
+                           <a href="#">
+                             <img src="images/home-images/home-mobile-images/mobile-sideBar-section/homeANDfurbishing.png" alt="">
+                           </a>
+                      </div>
+                      <!-- <div class="sideBar-category-img-container">
+                           <a href="#">
+                             <img src="images/home-images/home-mobile-images/mobile-sideBar-section/homeANDfurbishing.png" alt="">
+                           </a>
+                      </div> -->
+                      
+                </div>
+                 <!-- 2nd part  -->
+                <div id="sideBar-category-conatiner-line"></div>
+                <ul id="Men-menu">
+                    <li>
+                        <div class="sidebar-wrapper-main-heading">
+                            <span class="menu-heading-txt">Men</span>
+                            <span class="rightArrow">
+                                <span class="material-symbols-outlined">chevron_right</span>
+                            </span>
+                            <span class="downArrow">
+                                <span class="material-symbols-outlined">arrow_drop_down</span>
+                            </span>
+                        </div>
+                        <ul id="men-menu-list" class="hide-menu">
+                            <li><a href="collections/men-products.html">Topwear</a></li>
+                            <li><a href="collections/men-products.html">Bottomwear</a></li>
+                            <li><a href="collections/men-products.html">Innerwear</a></li>
+                            <li><a href="collections/men-products.html">Sleepwear</a></li>
+                            <li><a href="collections/men-products.html">Sportwear</a></li>
+                            <li><a href="collections/men-products.html">Footwear</a></li>
+                            <li><a href="collections/men-products.html">Watches</a></li>
+                            <li><a href="collections/men-products.html">Wallets</a></li>
+                            <li><a href="collections/men-products.html">Bags & Luggages</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="Women-menu">
+                    <li>
+                        <div class="sidebar-wrapper-main-heading">
+                            <span class="menu-heading-txt">Women</span>
+                            <span class="rightArrow">
+                                <span class="material-symbols-outlined">chevron_right</span>
+                            </span>
+                            <span class="downArrow">
+                                <span class="material-symbols-outlined">arrow_drop_down</span>
+                            </span>
+                        </div>
+                        <ul id="women-menu-list" class="hide-menu">
+                            <li><a href="collections/men-products.html">Westrenwear</a></li>
+                            <li><a href="collections/men-products.html">Ethnicwear</a></li>
+                            <li><a href="collections/men-products.html">Innerwear</a></li>
+                            <li><a href="collections/men-products.html">Sleepwear</a></li>
+                            <li><a href="collections/men-products.html">Sportwear</a></li>
+                            <li><a href="collections/men-products.html">Footwear</a></li>
+                            <li><a href="collections/men-products.html">Watches & Sunglasses</a></li>
+                            <li><a href="collections/men-products.html">Wallets</a></li>
+                            <li><a href="collections/men-products.html">Bags</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="Kids-menu">
+                    <li>
+                        <div class="sidebar-wrapper-main-heading">
+                            <span class="menu-heading-txt">Kids</span>
+                            <span class="rightArrow">
+                                <span class="material-symbols-outlined">chevron_right</span>
+                            </span>
+                            <span class="downArrow">
+                                <span class="material-symbols-outlined">arrow_drop_down</span>
+                            </span>
+                        </div>
+                        <ul id="kids-menu-list" class="hide-menu">
+                            <li><a href="collections/men-products.html">Boys Clothings</a></li>
+                            <li><a href="collections/men-products.html">Girls Clothings</a></li>
+                            <li><a href="collections/men-products.html">Footwear</a></li>
+                            <li><a href="collections/men-products.html">Home & Bath</a></li>
+                            <li><a href="collections/men-products.html">Personal Care</a></li>
+                            <li><a href="collections/men-products.html">Sportwear</a></li>
+                            <li><a href="collections/men-products.html">Footwear</a></li>
+                            <li><a href="collections/men-products.html">Watches</a></li>
+                            <li><a href="collections/men-products.html">Wallets</a></li>
+                            <li><a href="collections/men-products.html">Bags & Luggages</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul id="Home-livings-menu">
+                    <li>
+                        <div class="sidebar-wrapper-main-heading">
+                            <span class="menu-heading-txt">Home & Living</span>
+                            <span class="rightArrow">
+                                <span class="material-symbols-outlined">chevron_right</span>
+                            </span>
+                            <span class="downArrow">
+                                <span class="material-symbols-outlined">arrow_drop_down</span>
+                            </span>
+                        </div>
+                        <ul id="homeANDliving-menu-list" class="hide-menu">
+                            <li><a href="collections/men-products.html">Flooring</a></li>
+                            <li><a href="collections/men-products.html">Curtains</a></li>
+                            <li><a href="collections/men-products.html">Home Decor</a></li>
+                            <li><a href="collections/men-products.html">Home & Bath</a></li>
+                            <li><a href="collections/men-products.html">Kitchen</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                 <!-- 3rd part  -->
+                <div id="sideBar-category-conatiner-line"></div>
+                <div id="menu-last-list">
+                    <a href="#">
+                        <p>Myntra Studio <sup>New</sup></p>
+                    </a>
+                </div>
+                <div id="menu-last-list">
+                    <a href="#">
+                        <p>Myntra Mall <sup>New</sup></p>
+                    </a>
+                </div>
+                <div id="menu-last-list">
+                    <a href="#">
+                        <p>Contact us</p>
+                    </a>
+                </div>
+                <div id="menu-last-list">
+                    <a href="#">
+                        <p>About us</p>
+                    </a>
+                </div>
+                <div id="menu-last-list">
+                    <a href="#">
+                        <p>Legal</p>
+                    </a>
+                </div>
+                <div id="menu-last-list">
+                    <a href="#">
+                        <p>FAQs</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-super-container-close-Btn-conatiner">
+            <span class="material-symbols-outlined close-Btn">
+                    close
+            </span>
+        </div>
+    </div>
+    <!-- side bar translucent background -->
+    <div class="side-bar-transluecent-background"></div>
+
+    
+    <script src="js/index.js"></script>
+    <!-- cart.js is used its content so here. bcz we want to use cart.js -->
+    <script src="DataBase/men-products-DB.js"></script>
+    <script src="js/men-products.js"></script>
+    <script src="js/cart.js"></script>   <!-- for bag cart no. added products count-->
+</body>
+</html>
