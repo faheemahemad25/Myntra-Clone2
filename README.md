@@ -1,6 +1,8 @@
 # Myntra Clone 📄
 click to see https://myntra-highend-clone.vercel.app/
-<img src='SynonymWordsFinder.gif' >
+<br>
+<br>
+<img src='images/myntraClone (1).png'>
 
 
 ## Features 📋
