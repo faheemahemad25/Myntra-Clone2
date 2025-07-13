@@ -1,5 +1,5 @@
 # Myntra Clone 📄
-click to see https://myntra-highend-clone.vercel.app/
+click to see https://myntraclone-app.vercel.app/
 <br>
 <br>
 <img src='images/myntraClone (1).png'>
